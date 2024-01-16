@@ -1,0 +1,244 @@
+<!--HTML for Beginners-->
+<!DOCTYPE html> 
+<html> <!--html opens, It has the entire content including body, head-->
+    <head> <!--This is the heading of the website-->
+        <title>My first Title</title>
+    </head>
+    <body> <!--This contains the contents in the web page-->
+        <h1>This is an h1 heading</h1> <!--Heading-->
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+
+        <p> <!--Paragraph Beginning - Normal paragraph ignores the breaks-->
+            Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Eius 
+            blanditiis exercitationem corrupti ducimus 
+            
+            explicabo molestias aperiam doloremque rem ut 
+            nulla cumque deserunt excepturi odit ratione culpa, 
+            neque eligendi in commodi.
+        </p>
+
+        <!--Pre tag - Applies the breaks and other things just as we type-->
+        <pre>
+            Lorem, ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            
+            Ut animi, in ab placeat, repellendus magni 
+            accusamus corrupti iusto, adipisci eos porro fuga 
+            
+            quia minima architecto? Obcaecati quam inventore quidem sint.
+        </pre>
+
+        <!--Attach a hyperlink to the website-->
+        <a href = "www.google.com"
+        target = "_blank" 
+        title="Goes to google"> <!--When you hover it, the text appears-->
+            Click me
+        </a>
+        <hr>
+        <a href="lryics.html"
+        target = "_blank"> <!--Opens in a new tab or window-->
+            Fav Song - Click to find out
+        </a>
+        <hr>
+        <br>
+
+        <!--Send a mail to the below email-->
+        <a href="mailto:xyxx@gmail.com">
+            Email Me!
+        </a>
+        <br>
+
+        <!--Adding an image to the website-->
+        <h1>This is a sample image</h1>
+        <img src = "/images/Rajini.png"
+        height = "200" width = "200"
+        alt = "This is a picture of my wallpaper">
+
+        <!--Adding icon to the webpage-->
+        <link rel = "icon" type = "image/jpg" href = "images/Rajini.png">
+
+        <!--Text Formating-->
+        <p> This is a normal text</p>
+        <p> This is a <b>bold</b> text</p>
+        <p> This is a <i>italic</i> text</p>
+        <p> This is a <u>underlined</u> text</p>
+        <p> This is a <del>deleted</del> text</p>
+        <p> This is a <big>big</big> text</p>
+        <p> This is a <small>small</small> text</p>
+        <p> This is a <sub>subscript</sub> text</p>
+        <p> This is a <sup>superscript</sup> text</p>
+        <p> This is a <tt>monospaced</tt> text</p>
+        <p> This is a <mark style = "background-color: blueviolet;"> normal</mark> text</p>
+    
+        <!--span and div tags-->
+        <!--span - inline container-->
+        <!--div - block container(if i apply a style to a div the entire width of the 
+            page gets that style)-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Accusantium tenetur nam magni dolore impedit commodi! 
+            <span style="background-color: tomato;">eius reprehenderit 
+                veniam repellendus suscipit.</span> 
+            Ab doloremque fugit omnis culpa molestiae voluptatum, veritatis nesciunt.
+        </p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Accusantium tenetur nam magni dolore impedit commodi! 
+            <div style="background-color: cyan;">eius reprehenderit 
+                veniam repellendus suscipit.</div> 
+            Ab doloremque fugit omnis culpa molestiae voluptatum, veritatis nesciunt.
+        </p>
+
+    <!--Lists-->
+        <!--Unordered List, For eg. Groceries-->
+        <h4><div style="background-color: brown;">Groceries</div></h4>
+        <ul>
+            <li><span style="background-color: aqua;">milk</span></li>
+            <li><span style = "background-color: blue;">eggs</span></li>
+            <li>bread</li>
+            <li>coffee supplies</li>
+            <ul>
+                <li>coffee beans</li>
+                <li>sugar</li>
+                <li>creamer</li>
+            </ul>
+        </ul>
+
+        <!--Ordered List, For eg. To-do List-->
+        <h4><div style="background-color: brown;">To-do List</div></h4>
+        <ol>
+            <li><span style="background-color: aqua;">Go sleep</span></li>
+            <li><span style = "background-color: blue;">Get up</span></li>
+            <li>brush</li>
+            <li>Go to class</li>
+        </ol>
+
+        <!--Description List, For eg, Classes-->
+        <h4><div style="background-color: brown;">Classes</div></h4>
+        <dl> <!--description list-->
+            <dt><span style = "background-color: lightblue">Math</span></dt> <!--Description Term-->
+            <dd>This class teaches addition and subtraction</dd>
+            <dt>Science</dt>
+            <dd>This class teaches Chemistry, Physics and Biology</dd>
+        </dl>
+
+        <!--Create a Table-->
+        <h4>Store Hours</h4>
+        <table border="1" style="background-color: blue;"> <!--Increase the border number according to the thickness-->
+            <tr align="center"> <!--Table row-->
+                <th width = "100" style="background-color: aqua;">Days</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th width = "70">Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+
+            </tr> 
+            <tr align = "center">
+                <th style = "background-color: aqua;">Open Hours</th>
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <!--Create a button, when clicked it opens google.com in a new tab-->
+        <a href = "https://www.google.com/"
+        target="_blank"
+        title = "Go to Google">
+        <button style="font-size: 20px; background-color: blueviolet; border-radius: 10px;" >
+            Click Me
+        </button>
+        </a>
+        <br>
+        <br>
+        <!--Creating forms-->
+        <!--
+            action - to where the data from the form goes
+            method - GET/POST (GET - insensitive info, POST - confidential(Username, Password))
+            <input> - text box
+        -->
+        <h2>Fill out this form to reach me</h2>
+        <form action = "index.php" target="_blank" method = "POST" enctype = "multipart/form-data">
+            <label for="username">Username:</label>
+            <input type="text" id = "username" placeholder="ShellyBot" minlength="6" required>
+            <br>
+            <label for = "password">Password:</label>
+            <input type = "password" id = "password" minlength="6" required>
+            <br>
+            <label for = "email">Email:</label>
+            <input type = "email" id="email" placeholder="sample@gmail.com" required>
+            <br>
+            <label for = "phoneNumber">Phone Number:</label>
+            <input type = "tel" id = "phoneNumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br>
+            <label for = "BirthDate">Birth Date:</label>
+            <input type = "date" id = "BirthDate">
+            <br>
+            <label for = "quantity">Quantity:</label>
+            <input type = "number" id = "quantity" minlength="0" maxlength="99" value = "1">
+            <br>
+            <label for = "title">Title:</label>
+
+            <label for = "mr">Mr</label>
+            <input type = "radio" id = "mr" value="Mr." name="title">
+            <label for = "ms">Ms</label>
+            <input type = "radio" id = "ms" value="Ms." name="title">
+            <br>
+            <label for="payment">Payment</label>
+            <select id = "payment">
+                <option value = "visa">VISA</option>
+                <option value = "mastercard">MasterCard</option>
+                <option value = "paypal">PayPal</option>
+            </select> 
+            <br>
+            <label for = "subscribe">Subscribe</label>
+            <input type = "checkbox" id = "subscribe">
+            <br>
+            <label for = "comments">Comments</label>
+            <textarea id = "comments" rows = "3" cols="25"></textarea>
+            <br>
+            <label for = "file">Attach File</label>
+            <input type="file" id = "file" accept="image/png,jpg,jpeg">
+            <br>
+            <input type = "submit">
+            <input type = "reset">
+
+        </form>
+
+        <!--Headers and Footers-->
+        <header style = "background-color: blue;">
+            <h1>Welcome to this website</h1>
+            <a href = "">Home</a>
+            <a href = ""> About Us</a>
+            <a href = "">Contact</a>
+            <hr>
+        </header>
+        <main>
+            <h4>Check out this</h4>
+            <img src = "images/Rajini.png">
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. 
+                Eum perferendis temporibus mollitia 
+                consequatur eius similique cum voluptates 
+                ducimus repellendus exercitationem pariatur 
+                itaque velit, perspiciatis cupiditate laborum odio sed officiis. 
+                Unde.
+            </p> 
+        </main>
+        <footer style="background-color: brown;">
+            <hr>
+            author: Sample<br>
+            &copy; copyrights reserved<br>
+            <small><a href = "mailto:sample@gmail.com"></a></small>
+        </footer>
+    </body>
+</html>
